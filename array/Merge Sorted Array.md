@@ -2,6 +2,8 @@
 
 ### My submission
 
+> 題目要看請處，規定回傳的是 nums1 的記憶體位置，所以做重新賦值的操作是無效的XD
+
 第一次用偷吃步的解法，直接把 numx2 放到 000 部分，然後做 bubble sort。
 第二次參考[影片](https://www.youtube.com/watch?v=0PHGaGma6j8)認真解了。
 merge sort 的做法是先把 nums1 和 nums2 按照大小排列好，nus1 最後面補 0 ，這些補上去的 0 用來把 nums2 給 merge 進來的。
